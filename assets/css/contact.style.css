@@ -37,7 +37,7 @@ nav {
 	display: inline-block;
 	margin-right: 45px
 	margin-top: 30px;
-	padding-top: 30px;
+	padding-top: 25px;
 	padding-right: 100px;
 }
 
@@ -53,18 +53,12 @@ nav ul li {
 	width: 650px;
 	height: 445px;
 	border: 1px solid #dddddd;
-	padding: 20px 30px 25px 30px;
+	padding: 20px 30px 125px 30px;
 	background-color: white;
 	margin-left: 145px;
 	margin-right: 0px;
 	display: inline-block;
 	float: left;
-
-}
-
-.main_content p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 150%;
 }
 
 #page_name{
@@ -75,17 +69,29 @@ nav ul li {
 }
 
 
+
 #profile_pic {
 	display: inline-block;
 	height: 150px;
 	width: 150px;
 	float: left;
-	margin-right: 5px;
+	margin-right: 25px;
 }
 
 #about_me {
 	text-align: right;
 	display: inline-block;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+#submit_button {
+	background-color: #4aaaa5;
+	padding: 10px 25px 10px 25px;
 }
 
 .icons {
@@ -123,6 +129,7 @@ nav ul li {
 
 .social_box li {
 	display: inline-block;
+
 	
 }
 
@@ -133,8 +140,6 @@ nav ul li {
 
 
 }
-
-
 .container{
 	display:flex;
 	flex-direction: row;

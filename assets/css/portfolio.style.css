@@ -37,7 +37,7 @@ nav {
 	display: inline-block;
 	margin-right: 45px
 	margin-top: 30px;
-	padding-top: 30px;
+	padding-top: 25px;
 	padding-right: 100px;
 }
 
@@ -53,18 +53,13 @@ nav ul li {
 	width: 650px;
 	height: 445px;
 	border: 1px solid #dddddd;
-	padding: 20px 30px 25px 30px;
+	padding: 20px 30px 195px 30px;
 	background-color: white;
 	margin-left: 145px;
 	margin-right: 0px;
 	display: inline-block;
 	float: left;
 
-}
-
-.main_content p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	line-height: 150%;
 }
 
 #page_name{
@@ -80,7 +75,7 @@ nav ul li {
 	height: 150px;
 	width: 150px;
 	float: left;
-	margin-right: 5px;
+	margin-right: 25px;
 }
 
 #about_me {
@@ -134,10 +129,133 @@ nav ul li {
 
 }
 
-
 .container{
 	display:flex;
 	flex-direction: row;
+
+}
+
+
+
+#crossword {
+	
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	float: left;
+	margin-right: 100px;
+	margin-left: 60px;
+}
+
+#collegesearch {
+	
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+
+
+}
+
+#cardgame {
+	
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	float: left;
+	margin-right: 100px;
+	margin-left: 60px;
+
+
+}
+
+#triviagame {
+	
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 60px;	
+	
+}
+
+#scheduler {
+	
+	position: relative;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	margin-left: 60px;
+	float: left;
+	margin-right: 0px;
+	left: .5%;
+	
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+#label1 {
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 130px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#label2 {
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 130px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#label3 {
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 130px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#label4 {
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 130px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#label5 {
+	bottom: 5%;
+	position: absolute;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 130px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #footer {
@@ -150,5 +268,5 @@ nav ul li {
 	border-top: 5px solid #4aaaa5;
 	color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	
+
 }
