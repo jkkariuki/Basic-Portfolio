@@ -1,3 +1,6 @@
+* {
+	font-family: Philosopher;
+}
 #wrapper {
   position: relative;
   width: 100%;
@@ -13,12 +16,12 @@
 	background-color: white;
 	margin-bottom: 40px;
 	width: 100%;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: Philosopher;
 }
 
 #tab {
 	text-align: center; 
-	font-family: 'Georgia', Times, Times New Roman, serif;
+font-family: Philosopher;
 	width: 235px;
 	height: 100%;
 	background-color: #800020;
@@ -34,7 +37,7 @@ nav {
 	float: left;
 	display: inline-block;
 	left: 64.75%;
-	top: 3.5%;	
+	top: 1%;	
 }
 
 
@@ -70,7 +73,7 @@ nav ul li:hover {
 .social_box {
 	float: left;
 	width: 250px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+font-family: Philosopher;
 	color: #800020;
 	height: 165px;
 	border: 1px solid #dddddd;
@@ -82,14 +85,14 @@ nav ul li:hover {
 }
 
 #page_name{
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: Philosopher;
 	border-bottom: solid #dddddd;
 	padding-bottom: 30px;
 	color: #800020;
 }
 
 form {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-family: Philosopher;
 	color: #777777;
 
 }
@@ -104,7 +107,9 @@ form {
 }
 
 #submit_button:hover {
-	font-size: 1.5em;
+	background-color: white;
+	color: #800020;
+
 }
 
 .icons {
@@ -146,7 +151,7 @@ form {
 	margin-top: 40px;
 	border-top: 5px solid #800020;
 	color: white;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-family: Philosopher;
 	display: inline-block;
 	
 }
